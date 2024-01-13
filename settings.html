@@ -1,69 +1,71 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <title>Lawn Of The Dead - Settings</title>
-    <link type="text/css" rel="stylesheet" href="styles.css"/>
-    <link rel ="icon" href="lotd logo.png" />
-        <meta charset="utf-8"/>
-  </head>
-  <body>
-    <main>
-      <center>
-         <div style="position:relative;height:210px">
-           <center>
-           <img style="position:absolute;left:70px;top:-20px" src="grass.png" width="10px" class="logo" />
-         </div>
-         </center>
-         </centre>
 
-         <center><h1> Settings</h1></center>
-<header>
-    <nav>
+<head>
+  <title>Lawn Of The Dead - Settings</title>
+  <link type="text/css" rel="stylesheet" href="styles.css" />
+  <link rel="icon" href="lotd logo.png" />
+  <meta charset="utf-8" />
+</head>
+
+<body>
+  <main>
+    <center>
+      <div style="position:relative;height:210px">
+        <center>
+          <img style="position:absolute;left:70px;top:-20px" src="grass.png" width="10px" class="logo" />
+      </div>
+    </center>
+    </centre>
+
+    <center>
+      <h1> Settings</h1>
+    </center>
+    <header>
+      <nav>
         <ul>
-            <li><a href="index.html">Home</a></li>
-            <li><a href="Aboutthegame.html">About the game</a></li>
-            <li><a href="settings.html">Settings</a></li>
-            <li><a href="arcade.html">Arcade</a></li>
-            <li><a href="hidden.html">Creator</a></li>
-            <li><a href="info.html">Info</a></li>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="Aboutthegame.html">About the game</a></li>
+          <li><a href="settings.html">Settings</a></li>
+          <li><a href="arcade.html">Arcade</a></li>
+          <li><a href="hidden.html">Creator</a></li>
+          <li><a href="info.html">Info</a></li>
         </ul>
-    </nav>
-</header>
+      </nav>
+    </header>
 
 
-Dark Mode: <input type="radio" name="mode" data-mode="dark-mode" id="darkMode" onclick="modeChanged(this);" />
-Rainbow Mode: <input type="radio" name="mode" data-mode="rainbow-mode" id="rainboxMode" onclick="modeChanged(this);" />
-Standard mode: <input type="radio" name="mode" data-mode="" id="standardMode" onclick="modeChanged(this);" />
+    Dark Mode: <input type="radio" name="mode" data-mode="dark-mode" id="darkMode" onclick="modeChanged(this);" />
+    Rainbow Mode: <input type="radio" name="mode" data-mode="rainbow-mode" id="rainboxMode"
+      onclick="modeChanged(this);" />
+    Standard mode: <input type="radio" name="mode" data-mode="" id="standardMode" onclick="modeChanged(this);" />
 
-<script>
-  var mode = localStorage.getItem('view-mode');
+    <script>
+      var mode = localStorage.getItem('view-mode');
 
-  if (mode == 'dark-mode')
-  {
-    document.getElementById('darkMode').checked = true;
-  }
-  else if (mode == 'rainbow-mode')
-  {
-    document.getElementById('rainbowMode').checked = true;
-  }
-  else
-  {
-    document.getElementById('Mode').checked = true;
-  }
+      if (mode == 'dark-mode') {
+        document.getElementById('darkMode').checked = true;
+      }
+      else if (mode == 'rainbow-mode') {
+        document.getElementById('rainbowMode').checked = true;
+      }
+      else {
+        document.getElementById('Mode').checked = true;
+      }
 
-  function modeChanged(chk)
-  {
-    localStorage.setItem('view-mode', chk.checked ? chk.getAttribute('data-mode') : '');
-    setViewMode();
-  }
-</script>
+      function modeChanged(chk) {
+        localStorage.setItem('view-mode', chk.checked ? chk.getAttribute('data-mode') : '');
+        setViewMode();
+      }
+    </script>
 
 
-    </main>
-    <footer>
-      <h3>Current exact website version: v05.00.00</h3>
+  </main>
+  <footer>
+    <h3>Current exact website version: v05.00.00</h3>
 
-    </footer>
-    <script src="settings.js"></script>
-  </body>
+  </footer>
+  <script src="settings.js"></script>
+</body>
+
 </html>

@@ -1,68 +1,74 @@
-body.dark-mode
-{
-  background-color:black;
-  color:white;
+body.dark-mode {
+  background-color: black;
+  color: white;
 }
+
 body.rainbow-mode {
   background: linear-gradient(#fea3aa, #f8b88b, #faf884, #baed91, #baed91, #b2cefe, #f2a2e8, #fea3aa);
 }
+
 body {
-  background-color:white;
-  color:black;
+  background-color: white;
+  color: black;
 }
 
- nav ul li {
-    list-style-type: square;
-    display:inline;
-    margin-right: 9px;
-    margin-left: 40px;
-    display: flex:
+nav ul li {
+  list-style-type: square;
+  display: inline;
+  margin-right: 9px;
+  margin-left: 40px;
+  display: flex:
 }
 
-nav ul, .green {
-    background-color: green;
-      border-style: solid;
+nav ul,
+.green {
+  background-color: green;
+  border-style: solid;
   border-color: lime;
   border-width: 2px;
   padding: 2px;
-  border-radius: 20px;.
-  display: flex;
-justify-content: flex-start;
+  border-radius: 20px;
+  . display: flex;
+  justify-content: flex-start;
 }
 
 nav ul li a {
-    text-decoration: none;
-    color: lime;
+  text-decoration: none;
+  color: lime;
 }
+
 .tinyPicture {
-    height: 60px;
-    border-radius: 10px;
+  height: 60px;
+  border-radius: 10px;
 }
+
 .card {
-    width: 200px;
-    height: 200px;
-    border: 2px solid #F0FFFF;
-    border-radius: 10px;
-    box-sizing: border-box;
-    padding: 20px;
-    margin-top: 10px;
-    font-family: "Trebuchet MS", sans-serif;
-    margin-left: auto;
-margin-right: auto;
+  width: 200px;
+  height: 200px;
+  border: 2px solid #F0FFFF;
+  border-radius: 10px;
+  box-sizing: border-box;
+  padding: 20px;
+  margin-top: 10px;
+  font-family: "Trebuchet MS", sans-serif;
+  margin-left: auto;
+  margin-right: auto;
 }
+
 .card:hover {
-    border-color: #1E90FF;
+  border-color: #1E90FF;
 }
+
 .cardLink {
-   text-decoration: none;
-    color: PapayaWhip;
+  text-decoration: none;
+  color: PapayaWhip;
 }
 
 .cardContainer {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-around;
-    padding: 10px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  padding: 10px;
 }
 
 
@@ -79,7 +85,7 @@ margin-right: auto;
   display: block;
   margin-left: auto;
   margin-right: auto;
-  width:130%;
+  width: 130%;
 }
 
 
