@@ -2,4 +2,13 @@ Notes:
 1.
 2.
 3.
-4.
+4. HTML: <div class="cardContainer">
+        <a href="QQQ.html">
+          <article class="card">
+            <img src="Qicon.png" class="tinyPicture">
+            <h3>Executive Programer</h3>
+            <p>jiimmyyy_crower</p>
+        </a>
+        </article>
+
+Storyline By RoboKing:
