@@ -10,5 +10,111 @@ Notes:
             <p>jiimmyyy_crower</p>
         </a>
         </article>
+a
+a
+a
+a
+a
+a
+        <!DOCTYPE html>
+        <html>
+
+        <head>
+          <title>Lawn of the Dead - Fact Files</title>
+          <link type="text/css" rel="stylesheet" href="styles.css" />
+          <link rel="icon" href="lotd logo.png" />
+          <img style="position:absolute;left:70px;top:-20px" src="BackgroundEraser_20230918_191102856.png" width="10px" class="logo" />
+          <meta charset="utf-8" />
+        </head>
+
+        <body>
+          <main>
+            <center>
+              <div style="position:relative;height:210px">
+                <center>
+              </div>
+            </center>
+            </centre>
+
+            <center>
+              <h1> Fact Files</h1>
+            </center>
+            <header>
+              <nav>
+                <ul>
+                  <li><a href="index.html">Home</a></li>
+                  <li><a href="Aboutthegame.html">About The Game</a></li>
+                  <li><a href="settings.html">Settings</a></li>
+                  <li><a href="arcade.html">Arcade</a></li>
+                  <li><a href="hidden.html">Creator</a></li>
+                  <li><a href="info.html">Info</a></li>
+                  <li><a href="L.O.T.D. Fact File.html">Fact Files</a></li>
+                </ul>
+              </nav>
+            </header><center>
+              <h1>People:</h1>
+            </br>
+            </br>
+            <h1>Gerald:</h1>
+            <img src="Posh Shop Owner.png" class="tinyPicture">
+            <h3>Facts:</h3>
+              <h4>He owns the mansion and shop you stay in in Lawn Of The Dead  (He also has a cat named Mr Nibbles more about that in the game).</h4>
+              <h3>HP:</h3>
+              <h4>Unknown</h4>
+              </br>
+              </br>
+              <h1>Zombie Plague:</h1>
+              <img src="Zombie.png" class="tinyPicture">
+              <h3>Facts:</h3>
+                <h4>They come in hoards hundreds at a time they came from beyond the garden where nobody has ever gone.</h4></center>
+              <h3>Types:</h3>
+              <h4><li>Fire</li></h4>
+              <h4><li>Ice</li></h4>
+              <h4><li>Earth</li></h4>
+              <h4><li>And Many Unknown Varients</li></h4>
+          <center>
+                <h3>HP:</h3>
+                <h4>10</h4>
+            </br>
+            </br>
+            <h1>Character:</h1>
+            <img src="Charecter.png" class="tinyPicture">
+            <h3>Facts:</h3>
+              <h4>He is a mighty mower and can mow any lawn in less than an hour and kill a few zomies in the proccess.</h4>
+              <h3>HP:</h3>
+              <h4>20</h4>
+            <h3>Types:</h3>
+            <h4><li>John</li></h4>
+            <h4><li>Unnamed Women</li></h4>
+              </br>
+              </br>
+            <center>
+              <h1>Lawn Mower:</h1>
+              <img src="Lawnmower.png" class="tinyPicture">
+              <h3>Facts:</h3>
+                <h4>An average lawnmower no abilities and cheaper more lawnmowers with abilities will be added to the fact file page soon.</h4>
+                <h3>Damage:</h3>
+                <h4>Undetermined</h4>
+                </br>
+                </br>
+              <center>
+                <h1>Leaf Blower:</h1>
+                <img src="Leaf Blower.png" class="tinyPicture">
+                <h3>Facts:</h3>
+                  <h4>An average leafblower no abilities and cheaper more leafblower with abilities will be added to the fact file page soon.</h4>
+                  <h3>Damage:</h3>
+                  <h4>Undetermined</h4>
+                  </br>
+                  </br>
+            <h3>Current website version: v5</h3>
+            </center>
+
+          </main>
+          <footer>
+            <script src="settings.js"></script>
+          </footer>
+        </body>
+
+        </html>
 
 Storyline By RoboKing:
