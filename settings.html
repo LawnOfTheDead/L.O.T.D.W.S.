@@ -1,76 +1,79 @@
-<!DOCTYPE html>
-<html>
-
-<head>
-  <title>Lawn Of The Dead - Settings</title>
-  <link type="text/css" rel="stylesheet" href="styles.css" />
-  <link rel="icon" href="lotd logo.png" />
-  <img style="position:absolute;left:70px;top:-20px" src="BackgroundEraser_20230918_191102856.png" width="10px" class="logo" />
-  <meta charset="utf-8" />
-</head>
-
-<body>
-  <main>
-    <center>
-      <div style="position:relative;height:210px">
+  <!DOCTYPE html>
+  <html>
+    <head>
+      <title>Lawn of the Dead - Creator</title>
+      <link type="text/css" rel="stylesheet" href="styles.css"/>
+      <link rel ="icon" href="lotd logo.png" />
+      <img style="position:absolute;left:70px;top:-20px" src="BackgroundEraser_20230918_191102856.png" width="10px" class="logo" />
+      <meta charset="utf-8"/>
+    </head>
+    <body>
+      <main>
         <center>
-      </div>
-    </center>
-    </centre>
-
-    <center>
-      <h1> Settings</h1>
-      <center><img src="st.png" class="tinyPicture">
-       </center>
-    </center>
-    <header>
+           <div style="position:relative;height:210px">
+	<body>
+	  <main>
+	    <center>
+	       <div style="position:relative;height:210px">
+	         <center>
+	         <img style="position:absolute;left:70px;top:-20px" src="grass.png" width="10px" class="logo" />
+         </div>
+         </center>
+         </centre>
+         
+	       <center><h1> Settings</h1></center>
+      <header>
       <nav>
-        <ul>
-          <li><a href="index.html">Home</a></li>
-          <li><a href="Aboutthegame.html">About the game</a></li>
-          <li><a href="settings.html">Settings</a></li>
-          <li><a href="arcade.html">Arcade</a></li>
-          <li><a href="hidden.html">Creator</a></li>
-          <li><a href="info.html">Info</a></li>
-          <li><a href="L.O.T.D. Fact File.html">Fact Files</a></li>
-          <li><a href="Updatelog.html">Update Log</a></li>
-          <li><a href="posters.html">Posters</a></li>
-        </ul>
+          <ul>
+              <li><a href="index.html">Home</a></li>
+              <li><a href="Aboutthegame.html">About the game</a></li>
+              <li><a href="settings.html">Settings</a></li>
+              <li><a href="arcade.html">Arcade</a></li>
+              <li><a href="hidden.html">Creator</a></li>
+              <li><a href="info.html">Team</a></li>
+            <li><a href="L.O.T.D. Fact File.html">Fact Files</a></li>
+            <li><a href="Updatelog.html">Update Log</a></li>
+            <li><a href="posters.html">Posters</a></li>
+          </ul>
       </nav>
-    </header>
+      </header>
 
 
-    Dark Mode: <input type="radio" name="mode" data-mode="dark-mode" id="darkMode" onclick="modeChanged(this);" />
-    Rainbow Mode: <input type="radio" name="mode" data-mode="rainbow-mode" id="rainboxMode"
-      onclick="modeChanged(this);" />
-    Standard mode: <input type="radio" name="mode" data-mode="" id="standardMode" onclick="modeChanged(this);" />
-
-    <script>
-      var mode = localStorage.getItem('view-mode');
-
-      if (mode == 'dark-mode') {
-        document.getElementById('darkMode').checked = true;
-      }
-      else if (mode == 'rainbow-mode') {
-        document.getElementById('rainbowMode').checked = true;
-      }
-      else {
-        document.getElementById('Mode').checked = true;
-      }
-
-      function modeChanged(chk) {
-        localStorage.setItem('view-mode', chk.checked ? chk.getAttribute('data-mode') : '');
-        setViewMode();
-      }
-    </script>
+Dark Mode: <input type="radio" name="mode" data-mode="dark-mode" id="darkMode" onclick="modeChanged(this);" />
+Rainbow Mode: <input type="radio" name="mode" data-mode="rainbow-mode" id="rainboxMode" onclick="modeChanged(this);" />
+Standard mode: <input type="radio" name="mode" data-mode="" id="standardMode" onclick="modeChanged(this);" />
+      
 
 
-  </main>
-  <footer>
-    <h3>Current exact website version: v05.06.03</h3>
+<script>
+  var mode = localStorage.getItem('view-mode');
+  
+  if (mode == 'dark-mode')
+  {
+    document.getElementById('darkMode').checked = true;
+  }
+  else if (mode == 'rainbow-mode')
+  {
+    document.getElementById('rainbowMode').checked = true;
+  }
+  else
+  {
+    document.getElementById('Mode').checked = true;
+  }
+  
+  function modeChanged(chk)
+  {
+    localStorage.setItem('view-mode', chk.checked ? chk.getAttribute('data-mode') : '');
+    setViewMode();
+  }
+</script>
 
-  </footer>
-  <script src="settings.js"></script>
-</body>
 
+	  </main>
+	  <footer>
+	    <h3>Current exact website version: v05.00.00</h3>
+	    
+	  </footer>
+	  <script src="settings.js"></script>
+	</body>
 </html>
