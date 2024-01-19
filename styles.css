@@ -9,6 +9,12 @@
   transition: box-shadow 300ms, color 300ms;
 }
 
+img.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
 .first:hover {
   color: yellow;
   box-shadow: 10px 10px 0 rgb(219, 219, 219);
