@@ -9,6 +9,14 @@
   transition: box-shadow 300ms, color 300ms;
 }
 
+.main-logo {
+  height:400px;
+  background-image:url('main_logo.png');
+  background-size:contain;
+  background-repeat:no-repeat;
+  background-position: center
+}
+
 img.center {
   display: block;
   margin-left: auto;
