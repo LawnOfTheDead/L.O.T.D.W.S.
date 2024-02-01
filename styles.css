@@ -1,3 +1,11 @@
+button{
+  text-align: center ;
+}
+
+
+
+
+
 .first {
   padding: 10px;
   font-size: 20px;
@@ -126,3 +134,4 @@ nav ul li a {
 
 .snake {
   color: Lime;
+}
