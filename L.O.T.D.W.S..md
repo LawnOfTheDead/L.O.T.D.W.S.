@@ -1,6 +1,6 @@
 **!Heeeelooo!**
 
-**!OUT MARCH THE 6TH!**
+**!OUT SOON!**
 
 **!Hello this is Lawn Of The Deads Website README.md!**
 <br />
